@@ -63,3 +63,8 @@ laurea (286)
   - SELECT AVG(`vote`) AS `media_voti`, `exam_id` AS `appello_esame`
   - FROM `exam_student` 
   - GROUP BY `appello_esame`;
+
+4. Contare quanti corsi di laurea ci sono per ogni dipartimento
+  - SELECT COUNT(*) AS `corsi_di_laurea`, `department_id` AS `dipartimenti`
+  - FROM `degrees` 
+  - GROUP BY `dipartimenti` ;
