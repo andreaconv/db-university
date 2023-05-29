@@ -58,3 +58,8 @@ laurea (286)
   - FROM `teachers` 
   - GROUP BY `indirizzo`
   - ORDER BY `indirizzo`;
+
+3. Calcolare la media dei voti di ogni appello d'esame
+  - SELECT AVG(`vote`) AS `media_voti`, `exam_id` AS `appello_esame`
+  - FROM `exam_student` 
+  - GROUP BY `appello_esame`;
