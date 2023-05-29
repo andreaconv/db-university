@@ -53,5 +53,8 @@ laurea (286)
   - GROUP BY `anno`
   - ORDER BY `anno`;
 
-
-
+2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
+  - SELECT COUNT(*) AS `elenco_insegnanti`, `office_address` AS `indirizzo`
+  - FROM `teachers` 
+  - GROUP BY `indirizzo`
+  - ORDER BY `indirizzo`;
