@@ -42,3 +42,16 @@ laurea (286)
   - SELECT * 
   - FROM `teachers` 
   - WHERE `phone` IS NULL;
+
+> ### BONUS
+
+## EX - Query con GROUP BY
+
+1. Contare quanti iscritti ci sono stati ogni anno
+  - SELECT COUNT(*) AS `iscritti`, YEAR(`enrolment_date`) AS `anno`
+  - FROM `students`
+  - GROUP BY `anno`
+  - ORDER BY `anno`;
+
+
+
