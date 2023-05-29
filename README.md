@@ -18,3 +18,16 @@ Per disegnare il diagramma utilizzate lo strumento che preferite (draw.io, MySql
 Consiglio ovviamente (e vivamente) MySql Workbench
 
 Una volta realizzato il diagramma fate uno screenshot o esportate il pdf.
+
+## CONSEGNA 2
+
+Dopo aver creato un nuovo database nel vostro phpMyAdmin e aver importato lo schema allegato, eseguite le query del file allegato “EX - Query con SELECT.pdf”.
+
+**Cosa consegnare?**
+
+Dopo aver testato le vostre query con phpMyAdmin, riportatele in un file txt e caricatelo nella vostra repo.
+
+>BONUS
+
+Eseguire le query di “EX - Query con GROUP BY.pdf”
+Vi allego, come esempio, alcune query svolte (molte le abbiamo fatte in classe altre sono simili a quelle fatte in classe) così da trarre ispirazione :occhiolino:
