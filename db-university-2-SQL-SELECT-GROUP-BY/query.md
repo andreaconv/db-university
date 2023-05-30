@@ -14,6 +14,8 @@
   - SELECT * 
   - FROM `students` 
   - WHERE DATEDIFF(NOW(), `date_of_birth`) / 365.25 > 30;
+  <!-- FIXME: Alternativa migliore -->
+  - WHERE TIMESTAMPDIFF(YEAR, `date_of_birth`, CURDATE()) > 30;
 
 4. Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di
 laurea (286)
@@ -28,6 +30,8 @@ laurea (286)
   - FROM `exams` 
   - WHERE `date` = '2020-06-20'
   - AND `hour` > '14:00:00';
+  <!-- FIXME: Alternativa migliore -->
+  - AND HOUR(`hour`) >= 14;
 
 6. Selezionare tutti i corsi di laurea magistrale (38)
   - SELECT * 
